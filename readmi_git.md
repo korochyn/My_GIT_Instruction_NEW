@@ -85,4 +85,17 @@ git commit -m "Необходиый и обязательный коментар
 
 # Работа с удаленными репозиториями
 
+git remote -v
+git remote show origin
+
+git clone https://github.com/schacon/ticgit
+git remote add [сокращенное имя] [url] добавление удаленного сервера
+
+git fetch [имя удаленного репозитория]
+git fetch origin Синхронизация работы с сервером с именем «origin»
+
+git pull
+git push [имя удаленного сервера] [ветка1] : [ветка2]  отправка в удаленный репозитарий [имя удаленного сервера] ветки1 котрая там получит имя ветка2 
+git push origin --delete serverfix удаление ветки serverfix на сервере origin
+
 
